@@ -73,3 +73,9 @@ $("#recomandation").click(function () {
   $("#trierPar").html("<p>Vos recomandations</p>");
 });
 
+/************/
+let like =0;
+$("#btn-like").click(function () {
+  like += 1;
+  $("#nbre-like").html("<p>" + like + "</p>");
+})
