@@ -37,157 +37,203 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-sm-3">
-                <h3 class="text-center">Favoris :</h3>
-                <div class="card text-center">
-                    <img class="card-img-top" src="asset/img/téléchargement.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Match en favoris</h5>
-                        <p class="card-text">Titre de la carte</p>
-                        <div class="inline">
-                            <a href="#" id="footer-card-link">Découvrir plus</a>
-                            <div class="inline" id="footer-card">
-                                <p>nmbr like</p>
-                                <img src=".//asset/img/like.svg" height="20px">
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="text-left">Favoris :</h3>
                 </div>
             </div>
-            <div class="col-12 col-sm-9 inline text-center">
-                <div class="col-12 text-right" id="tri">
-                    <div class="dropdown inline">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Trier par :
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#" id="recent">Les + récents</a>
-                                <a class="dropdown-item" href="#" id="populaire">Les + populaires</a>
-                                <a class="dropdown-item" href="#" id="recomandation">Recommandations</a>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Match en favoris</h5>
+                            <p class="card-text">Titre de la carte</p>
+                            <div class="inline">
+                                <a href="#" id="footer-card-link">Découvrir plus</a>
+                                <div class="inline" id="footer-card">
+                                    <p>nmbr like</p>
+                                    <img src=".//asset/img/like.svg" height="20px">
+                                </div>
                             </div>
-                            <p id="trierPar">Les + récents</p>
+                        </div>
                     </div>
                 </div>
-                <section class="carousel slide" data-ride="carousel" id="postsCarousel"  style="margin: -30px auto;">
-                    <div class="container p-t-0 m-t-2 carousel-inner">
-                        <div class="row row-equal carousel-item active m-t-0">
-                            <div class="inline">
-                                <div class="col-md-4">
-                                    <div class="card text-center">
-                                        <img class="card-img-top" src="asset/img/téléchargement.jpg">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Match n°1</h5>
-                                            <p class="card-text">Titre de la carte n°1</p>
-                                            <div class="inline">
-                                                <a href="#" id="footer-card-link">Découvrir plus</a>
-                                                <div class="inline" id="footer-card">
-                                                    <p id="nbre-like">0</p>
-                                                    <img src=".//asset/img/like.svg" height="20px" id="btn-like">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                <div class="col-12 col-md-9">
+                    <div class="row text-center" style="margin-top: -40px;">
+                        <div class="col-12" id="tri">
+                            <div class="dropdow inline-tri" style="margin-left: 5%;">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Trier par :
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#" id="recent">Les + récents</a>
+                                    <a class="dropdown-item" href="#" id="populaire">Les + populaires</a>
+                                    <a class="dropdown-item" href="#" id="recomandation">Recommandations</a>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card text-center">
-                                        <img class="card-img-top" src="asset/img/téléchargement.jpg">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Match n°2</h5>
-                                            <p class="card-text">Titre de la carte n°2</p>
-                                            <div class="inline">
-                                                <a href="#" id="footer-card-link">Découvrir plus</a>
-                                                <div class="inline" id="footer-card">
-                                                    <p>10</p>
-                                                    <img src=".//asset/img/like.svg" height="20px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card text-center">
-                                        <img class="card-img-top" src="asset/img/téléchargement.jpg">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Match n°3</h5>
-                                            <p class="card-text">Titre de la carte n°3</p>
-                                            <div class="inline">
-                                                <a href="#" id="footer-card-link">Découvrir plus</a>
-                                                <div class="inline" id="footer-card">
-                                                    <p>10</p>
-                                                    <img src=".//asset/img/like.svg" height="20px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-equal carousel-item m-t-0">
-                            <div class="inline">
-                                <div class="col-md-4">
-                                    <div class="card text-center">
-                                        <img class="card-img-top" src="asset/img/téléchargement.jpg">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Match n°4</h5>
-                                            <p class="card-text">Titre de la carte n°4</p>
-                                            <div class="inline">
-                                                <a href="#" id="footer-card-link">Découvrir plus</a>
-                                                <div class="inline" id="footer-card">
-                                                    <p>10</p>
-                                                    <img src=".//asset/img/like.svg" height="20px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card text-center">
-                                        <img class="card-img-top" src="asset/img/téléchargement.jpg">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Match n°5</h5>
-                                            <p class="card-text">Titre de la carte n°5</p>
-                                            <div class="inline">
-                                                <a href="#" id="footer-card-link">Découvrir plus</a>
-                                                <div class="inline" id="footer-card">
-                                                    <p>10</p>
-                                                    <img src=".//asset/img/like.svg" height="20px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 fadeIn wow">
-                                    <div class="card text-center">
-                                        <img class="card-img-top" src="asset/img/téléchargement.jpg">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Match n°6</h5>
-                                            <p class="card-text">Titre de la carte n°6</p>
-                                            <div class="inline">
-                                                <a href="#" id="footer-card-link">Découvrir plus</a>
-                                                <div class="inline" id="footer-card">
-                                                    <p>10</p>
-                                                    <img src=".//asset/img/like.svg" height="20px">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <p id="trierPar" style="margin-left: 20px;">Les + récents</p>
                             </div>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 lead" id="btncarousel" style="margin-top: -10px;">
-                                <a class="btn btn-outline-secondary prev" href="" title="go back"><img src="./asset/img/fleche-gauche.png" height="20"></a>
-                                <a class="btn btn-outline-secondary next" href="" title="more"><img src="./asset/img/fleche-droite.png" height="20"></a>
+                    <section class="carousel slide" data-ride="carousel" id="postsCarousel"  style="margin: -30px 0 -30px 5%">
+                        <div class="container-fluid p-t-0 m-t-2 carousel-inner">
+                            <div class="row row-equal carousel-item active m-t-0 v-inline">
+                                <div class="v-inline">
+                                    <div class="row inline">
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°1</h5>
+                                                    <p class="card-text">Titre de la carte n°1</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p id="nbre-like">0</p>
+                                                            <img src=".//asset/img/like.svg" height="20px" id="btn-like">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°2</h5>
+                                                    <p class="card-text">Titre de la carte n°2</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p>10</p>
+                                                            <img src=".//asset/img/like.svg" height="20px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row inline">
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°3</h5>
+                                                    <p class="card-text">Titre de la carte n°3</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p>10</p>
+                                                            <img src=".//asset/img/like.svg" height="20px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°4</h5>
+                                                    <p class="card-text">Titre de la carte n°4</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p>10</p>
+                                                            <img src=".//asset/img/like.svg" height="20px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-equal carousel-item m-t-0">
+                                <div class="v-inline">
+                                    <div class="row inline">
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°5</h5>
+                                                    <p class="card-text">Titre de la carte n°5</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p id="nbre-like">0</p>
+                                                            <img src=".//asset/img/like.svg" height="20px" id="btn-like">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°6</h5>
+                                                    <p class="card-text">Titre de la carte n°6</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p>10</p>
+                                                            <img src=".//asset/img/like.svg" height="20px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row inline">
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°7</h5>
+                                                    <p class="card-text">Titre de la carte n°7</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p>10</p>
+                                                            <img src=".//asset/img/like.svg" height="20px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card text-center">
+                                                <img class="card-img-top" src="asset/img/téléchargement.jpg">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Match n°8</h5>
+                                                    <p class="card-text">Titre de la carte n°8</p>
+                                                    <div class="inline">
+                                                        <a href="#" id="footer-card-link">Découvrir plus</a>
+                                                        <div class="inline" id="footer-card">
+                                                            <p>10</p>
+                                                            <img src=".//asset/img/like.svg" height="20px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div style="height: 50px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 lead text-center" id="btncarousel" style="margin-top: -10px; margin-bottom: 10px;">
+                                    <a class="btn btn-outline-secondary prev" href="" title="go back"><img src="./asset/img/fleche-gauche.png" height="20"></a>
+                                    <a class="btn btn-outline-secondary next" href="" title="more"><img src="./asset/img/fleche-droite.png" height="20"></a>
+                                </div>
+                            </div>
+                            <div style="height: 50px;">
+                            </div>
                         </div>
-                    </div>
-                </section>
-                <div style="height: 30px; width: 100%;"></div>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
